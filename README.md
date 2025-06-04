@@ -1,8 +1,9 @@
 # Churn Predictor
 
-This repository contains the code and resources for the Churn Predictor project.
+This repository contains the code and resources for the Churn Predictor project. An assignment that was required as part of a course in my master's program.
+It was for developing churn predictions for 2 freemium games.
 
-## Setup Instructions
+## Setup Instructions(skip if you don't want to work in a virtual env)
 
 1. Create a virtual environment:
    ```bash
@@ -24,31 +25,12 @@ This repository contains the code and resources for the Churn Predictor project.
    pip install -r requirements.txt
    ```
 
-## Project Structure
-
-```
-Churn_predictor/
-├── README.md           # This file
-├── requirements.txt    # Project dependencies
-├── src/               # Source code
-│   └── __init__.py
-└── notebooks/         # Jupyter notebooks
-```
-
-## Getting Started
-
-1. After setting up the environment, you can start Jupyter notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-2. Navigate to the `notebooks` directory to create or open notebooks for your analysis.
 
 ## Notebook Overview
 
 The notebook `Assignment12.ipynb` performs the following tasks:
 
-1. **Data Splitting**: It splits JSON files into training and testing datasets.
+1. **Data Splitting**: It splits JSON files into training(80%) and testing(20%) datasets.
 2. **Feature Extraction**: It extracts features from user event data for churn prediction, including:
    - Play count
    - Active days
@@ -77,4 +59,4 @@ The following datasets are required for the Churn Predictor project:
 - **Game 1 Dataset**: [Download Game 1 Dataset](https://tinyurl.com/pchurndatasets)
 - **Game 2 Dataset**: [Download Game 2 Dataset](https://tinyurl.com/pchurndatasets)
 
-Please ensure to download and place these datasets in the `data/` directory as specified in the project structure. 
+Please ensure to download and place these datasets in the and correctly adjust paths. 
